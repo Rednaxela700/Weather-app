@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'
 
 const Result = props => {
   const { date, city, sunrise, description, sunset, temp, pressure, wind, error } = props.weather
@@ -50,7 +51,7 @@ const Result = props => {
     )
   }
   return (
-    <div>
+    <div className='result'>
       {error ? `We don't have ${city} at database` : content}
     </div>
   );

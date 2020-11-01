@@ -1,4 +1,69 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding:0;
+}
+h1{
+  font-size: 40px;
+  color:rgb(72, 145, 179);
+}
+h2{
+  font-size:30px;
+}
+p{
+  font-size: 25px;
 }
 
+.app{
+  
+  margin:30px auto;
+  
+  font-family:arial;
+  text-align: center;
+  
+}
+form{
+  margin:20px auto;
+  
+  
+  
+}
+input{
+  
+  margin-right: 20px;
+  font-size: 25px;
+}
+input:focus{
+  background-color: black;
+  color:white;
+}
+button{
+  
+  font-size: 15px;
+  
+width: 70px;
+cursor: pointer;
+transition:.3s
+}
+button:hover{
+  transform:scale(1.5);
+}
+img{
+  margin-top: 20px;
+  width: 30%;
+  height: 30%;
+}
+@media (max-width:700px){
+  h1{
+    font-size:30px;
+  }
+  h2{
+    font-size:20px;
+  }
+  p{
+    font-size:20px;
+  }
+  input{
+    
+    font-size: 20px;
+  }
+}

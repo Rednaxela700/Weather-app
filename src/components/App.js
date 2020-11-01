@@ -55,7 +55,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
+      <div className='app'>
         <h1>WEATHER APP</h1>
         <Form change={this.handleInputChange} value={this.state.value} submit={this.handleCitySubmit} />
         <Result weather={this.state} />
